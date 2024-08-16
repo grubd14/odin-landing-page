@@ -5,6 +5,7 @@
 body {
   display: flex;
   flex-direction: column;
+
 }
 
 a {
@@ -14,11 +15,24 @@ a {
 li {
   list-style-type: none;
 }
+
+.sectionOne {
+  background-color: #1F2937;
+}
+.sectionFour {
+  background-color: #1F2937;
+}
+
 /* This is section for header of the webpage */
 .header {
   display: flex;
   padding: 8px;
   justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 ul {
@@ -42,4 +56,40 @@ ul {
 
 .title {
   font-size: 48px;
+  font-style: extra-bold;
+  color: #F9FAF8
 }
+
+.sub-text .links {
+  font-size: 18px;
+  color: #E5E7EB
+}
+
+button {
+  background-color: #3882F6;
+}
+
+.footer {
+  background-color: #3882F6;
+}
+
+/* Section two */
+.sec2-title {
+  font-size: 36px;
+  font-style: extra-bold;
+  color: #1F2937;
+}
+
+/* Section three */
+.sectionThree {
+  background-color: #E5E7EB;
+}
+
+.sec3-text {
+  font-size: 36px ;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+
