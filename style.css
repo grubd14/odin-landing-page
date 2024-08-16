@@ -1,0 +1,45 @@
+* {
+  outline: 1px solid red !important;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+/* This is section for header of the webpage */
+.header {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/*Content part of section one */
+
+.content {
+  display: flex;
+}
+
+.title {
+  font-size: 48px;
+}
